@@ -6,6 +6,9 @@ using UnityEngine.UI;
 public class DuplicatePanel : MonoBehaviour
 {
     public Text textChange;
+    public Sprite defaultDialogueBox;
+    public Sprite mirroredDialogueBox;
+    public Image currentDialogueImage;
     public GameObject gameObjectInactive;
     public RectTransform objectToDuplicate;
     public Transform parent;
@@ -14,7 +17,6 @@ public class DuplicatePanel : MonoBehaviour
     private string _currentText;
     private bool _pressedButton;
     private List<RectTransform> _allDuplicates = new List<RectTransform>();
-
 
     private void Update()
     {
@@ -29,6 +31,8 @@ public class DuplicatePanel : MonoBehaviour
 
         _currentText = textChange.text;
         _pressedButton = true;
+        currentDialogueImage.sprite = mirroredDialogueBox;
+
     }
 
     private void duplicate()
@@ -39,6 +43,8 @@ public class DuplicatePanel : MonoBehaviour
             positoinPreviousDuplicates();
 
             _currentText = textChange.text;
+            currentDialogueImage.sprite = defaultDialogueBox;
+
         }
     }
 
