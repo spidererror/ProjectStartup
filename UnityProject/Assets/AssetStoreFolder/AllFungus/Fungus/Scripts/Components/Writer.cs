@@ -12,6 +12,7 @@ using System.Globalization;
 
 namespace Fungus
 {
+
     /// <summary>
     /// Current state of the writing process.
     /// </summary>
