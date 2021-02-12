@@ -6,6 +6,9 @@ using UnityEngine.UI;
 public class DuplicatePanel : MonoBehaviour
 {
     public Text textChange;
+    public Sprite defaultDialogueBox;
+    public Sprite mirroredDialogueBox;
+    public Image currentDialogueImage;
     public GameObject gameObjectInactive;
     public RectTransform objectToDuplicate;
     public Transform parent;
@@ -15,30 +18,41 @@ public class DuplicatePanel : MonoBehaviour
     private bool _pressedButton;
     private List<RectTransform> _allDuplicates = new List<RectTransform>();
 
-
     private void Update()
     {
-        duplicate();
+       // duplicate();
     }
 
-    public void DuplicateOnClick()
+    public void DuplicateOnClick(bool mirror)
     {
 
         _allDuplicates.Add(Instantiate(objectToDuplicate, parent));
         positoinPreviousDuplicates();
 
         _currentText = textChange.text;
-        _pressedButton = true;
+        
+        if (mirror)
+        {
+            currentDialogueImage.sprite = mirroredDialogueBox;
+            _pressedButton = true;
+        }
+        else
+        {
+            currentDialogueImage.sprite = defaultDialogueBox;
+        }
+
     }
 
     private void duplicate()
     {
-        if (_currentText != textChange.text && Input.GetButtonDown("Fire1") && !gameObjectInactive.activeSelf)
+        if (_currentText != textChange.text && Input.GetButtonDown("Fire1") && _pressedButton)
         {
             _allDuplicates.Add(Instantiate(objectToDuplicate, parent));
             positoinPreviousDuplicates();
 
             _currentText = textChange.text;
+            currentDialogueImage.sprite = defaultDialogueBox;
+
         }
     }
 
@@ -49,7 +63,8 @@ public class DuplicatePanel : MonoBehaviour
         {
             if (i<_allDuplicates.Count-1)
             {
-                _allDuplicates[i].transform.position = new Vector3(_allDuplicates[i].transform.position.x, _allDuplicates[i].transform.position.y + offsetY+(_allDuplicates[i+1].rect.height/5), _allDuplicates[i].transform.position.z);
+                float defaultHeight =  1600;
+                _allDuplicates[i].transform.position = new Vector3(_allDuplicates[i].transform.position.x, _allDuplicates[i].transform.position.y + (offsetY*Screen.height/defaultHeight)+(_allDuplicates[i+1].rect.height * Screen.height / defaultHeight), _allDuplicates[i].transform.position.z);
 
             }
             else
