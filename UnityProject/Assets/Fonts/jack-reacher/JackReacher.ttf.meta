@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 6e67cf0a19034f94c9e38416e652d9a6
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Jack Reacher
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c9260b05c93634349b3b01ba703e6d06, type: 3}
+  - {fileID: 12800000, guid: 742f68f20325bbd40a3374b01cc62a2b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
