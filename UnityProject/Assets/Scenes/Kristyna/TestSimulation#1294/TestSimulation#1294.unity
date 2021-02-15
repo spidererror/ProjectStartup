@@ -183,7 +183,6 @@ GameObject:
   - component: {fileID: 4394926}
   - component: {fileID: 4394925}
   - component: {fileID: 4394924}
-  - component: {fileID: 4394923}
   - component: {fileID: 4394922}
   - component: {fileID: 4394921}
   - component: {fileID: 4394912}
@@ -233,18 +232,24 @@ GameObject:
   - component: {fileID: 4394916}
   - component: {fileID: 4394915}
   - component: {fileID: 4394914}
-  - component: {fileID: 4394913}
   - component: {fileID: 4394944}
   - component: {fileID: 4394945}
   - component: {fileID: 4394946}
-  - component: {fileID: 4394947}
   - component: {fileID: 4394961}
   - component: {fileID: 4394959}
   - component: {fileID: 4394958}
   - component: {fileID: 4394962}
   - component: {fileID: 4394960}
-  - component: {fileID: 4394963}
   - component: {fileID: 4394964}
+  - component: {fileID: 4394947}
+  - component: {fileID: 4394965}
+  - component: {fileID: 4394963}
+  - component: {fileID: 4394923}
+  - component: {fileID: 4394968}
+  - component: {fileID: 4394967}
+  - component: {fileID: 4394966}
+  - component: {fileID: 4394913}
+  - component: {fileID: 4394969}
   m_Layer: 0
   m_Name: TestSimulation
   m_TagString: Untagged
@@ -400,7 +405,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 274
     y: 288
-    width: 64
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -456,7 +461,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 95
     y: 282
-    width: 64
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -512,7 +517,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -79
     y: 286
-    width: 64
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -650,7 +655,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 210
     y: 156
-    width: 63
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -681,7 +686,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -34
     y: 157
-    width: 63
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -921,9 +926,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 86
+    x: 87.63934
     y: 80
-    width: 77
+    width: 78.124985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -932,6 +937,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 4394874}
   commandList:
+  - {fileID: 4394969}
   - {fileID: 4394960}
   - {fileID: 4394873}
   - {fileID: 4394872}
@@ -956,11 +962,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 145.26318, y: -281}
+  scrollPos: {x: 150.85677, y: -377.68237}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 606
-  zoom: 1
+  zoom: 0.64000034
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -968,9 +974,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 4394890}
-  selectedCommands:
-  - {fileID: 4394956}
+  - {fileID: 4394947}
+  selectedCommands: []
   variables:
   - {fileID: 4394961}
   description: 
@@ -1303,9 +1308,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 250
-    y: 439
-    width: 118
+    x: 248.07692
+    y: 425.53848
+    width: 115.62496
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1350,9 +1355,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -114
-    y: 441
-    width: 109
+    x: -119.76923
+    y: 429.66837
+    width: 107.81247
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1665,9 +1670,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 76
-    y: 773
-    width: 94
+    x: 216.98352
+    y: 717.2623
+    width: 90.62498
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1770,9 +1775,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 75
-    y: 717
-    width: 94
+    x: 214.34418
+    y: 669.45905
+    width: 90.62498
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1850,9 +1855,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 74
-    y: 652
-    width: 93
+    x: 210.06549
+    y: 614.2951
+    width: 89.062485
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1984,15 +1989,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 142
+  itemId: 164
   indentLevel: 0
-  targetFlowchart: {fileID: 4394876}
-  targetBlock: {fileID: 4394921}
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 4394968}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
   startIndex: 0
-  callMode: 0
+  callMode: 1
 --- !u!114 &4394914
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2210,9 +2215,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 76
-    y: 583
-    width: 86
+    x: 212.06549
+    y: 567.60657
+    width: 82.812485
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2222,8 +2227,6 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 4394962}
-  - {fileID: 4394963}
-  - {fileID: 4394947}
   - {fileID: 4394912}
   - {fileID: 4394911}
   - {fileID: 4394910}
@@ -2243,9 +2246,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 68
-    y: 852
-    width: 113
+    x: 61.442627
+    y: 574.951
+    width: 110.93747
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2272,15 +2275,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 49
+  itemId: 161
   indentLevel: 0
-  targetFlowchart: {fileID: 4394876}
-  targetBlock: {fileID: 4394921}
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 4394947}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
   startIndex: 0
-  callMode: 0
+  callMode: 1
 --- !u!114 &4394924
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2986,16 +2989,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 4394850}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 146
-  indentLevel: 0
-  _sceneName:
-    stringRef: {fileID: 0}
-    stringVal: PhoneDialogue
-  loadingImage: {fileID: 0}
-  sceneNameOLD: 
+  nodeRect:
+    serializedVersion: 2
+    x: -122.04791
+    y: 502.63562
+    width: 114.06246
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 158
+  blockName: PhoneClass
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 4394965}
+  - {fileID: 4394963}
+  suppressAllAutoSelections: 0
 --- !u!114 &4394948
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3284,7 +3296,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 804500286}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 13eca55f36a0d2745ad72049bcf9b8be, type: 3}
+  portrait: {fileID: 21300000, guid: a65c8e566808dc8409e86b354587d816, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 238911238}
@@ -3562,7 +3574,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &4394960
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3820,7 +3832,7 @@ MonoBehaviour:
   value: 0
 --- !u!114 &4394962
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3972,7 +3984,45 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &4394963
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4394850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 160
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: PhoneDialogueClass
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &4394964
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4394850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 153
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: MenuExample
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &4394965
+MonoBehaviour:
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3982,7 +4032,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 152
+  itemId: 159
   indentLevel: 0
   description: Sets isPhoneDone to true so after going back to this scene again it
     will switch to AfterPhone block
@@ -4027,9 +4077,9 @@ MonoBehaviour:
   stringEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &4394964
+--- !u!114 &4394966
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4039,13 +4089,154 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 153
+  itemId: 163
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: MenuExample
+    stringVal: PhoneDialogueLectureHall
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &4394967
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4394850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 162
+  indentLevel: 0
+  description: Sets isPhoneDone to true so after going back to this scene again it
+    will switch to AfterPhone block
+  delay: 0
+  invokeType: 0
+  staticEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1139651136}
+        m_TargetAssemblyTypeName: DontDestroyOnLoad, Assembly-CSharp
+        m_MethodName: setPhoneDoneTrue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  booleanParameter:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  booleanEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  integerParameter:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  integerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  floatParameter:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  floatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  stringParameter:
+    stringRef: {fileID: 0}
+    stringVal: 
+  stringEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &4394968
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4394850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 240.89508
+    y: 493.26108
+    width: 145.31244
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 165
+  blockName: PhoneLectureHall
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 4394967}
+  - {fileID: 4394966}
+  suppressAllAutoSelections: 0
+--- !u!114 &4394969
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4394850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 166
+  indentLevel: 0
+  description: Check if should skip to AfterPhone block
+  delay: 0
+  invokeType: 0
+  staticEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1139651136}
+        m_TargetAssemblyTypeName: DontDestroyOnLoad, Assembly-CSharp
+        m_MethodName: CheckIfPhoneDone
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  booleanParameter:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  booleanEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  integerParameter:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  integerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  floatParameter:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  floatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  stringParameter:
+    stringRef: {fileID: 0}
+    stringVal: 
+  stringEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &18489584
 GameObject:
   m_ObjectHideFlags: 0
@@ -4373,6 +4564,7 @@ GameObject:
   m_Component:
   - component: {fileID: 50147507}
   - component: {fileID: 50147508}
+  - component: {fileID: 50147509}
   m_Layer: 5
   m_Name: SliderSound
   m_TagString: Untagged
@@ -4447,24 +4639,37 @@ MonoBehaviour:
   m_HandleRect: {fileID: 629497304}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 100
+  m_MaxValue: 20
   m_WholeNumbers: 1
-  m_Value: 20
+  m_Value: 2
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2059788693}
-        m_TargetAssemblyTypeName: SettingsButtonScript, Assembly-CSharp
-        m_MethodName: SoundVolumeChange
-        m_Mode: 1
+      - m_Target: {fileID: 50147509}
+        m_TargetAssemblyTypeName: VolumeSlider, Assembly-CSharp
+        m_MethodName: OnSliderChange
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: VolumeSound
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &50147509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50147506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 043ab23cba37c66459732860bb30a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixer: {fileID: 1057217570369289062, guid: 97db4a4054a9f8141992027916b0a96b, type: 2}
 --- !u!1 &52531800
 GameObject:
   m_ObjectHideFlags: 0
@@ -4808,6 +5013,7 @@ GameObject:
   - component: {fileID: 189132810}
   - component: {fileID: 189132809}
   - component: {fileID: 189132808}
+  - component: {fileID: 189132811}
   m_Layer: 5
   m_Name: SlowBTN
   m_TagString: Untagged
@@ -4928,6 +5134,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 189132806}
   m_CullTransparentMesh: 1
+--- !u!114 &189132811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189132806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 100c9362d03d20045b61441159272797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _currentSpeed: 10
 --- !u!1 &238911237
 GameObject:
   m_ObjectHideFlags: 0
@@ -5594,8 +5813,8 @@ RectTransform:
   m_Father: {fileID: 1232759534}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0.5}
   m_SizeDelta: {x: 50, y: -1}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -5637,6 +5856,64 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 507117771}
   m_CullTransparentMesh: 1
+--- !u!1 &525233963
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 525233966}
+  - component: {fileID: 525233965}
+  - component: {fileID: 525233964}
+  m_Layer: 0
+  m_Name: SettingsDataEmpty
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &525233964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 525233963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 100c9362d03d20045b61441159272797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _currentSpeed: 0
+--- !u!114 &525233965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 525233963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a6ce593dc046a439d640396f0e85f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  writingSpeed: 80
+--- !u!4 &525233966
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 525233963}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 955.442, y: 565.5492, z: -153.42651}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &574500806
 GameObject:
   m_ObjectHideFlags: 0
@@ -5760,8 +6037,8 @@ RectTransform:
   m_Father: {fileID: 1248288785}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.2, y: 0}
-  m_AnchorMax: {x: 0.2, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0.5}
   m_SizeDelta: {x: 50, y: -1}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -7771,7 +8048,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.2, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -7876,6 +8153,7 @@ GameObject:
   - component: {fileID: 1381220601}
   - component: {fileID: 1381220600}
   - component: {fileID: 1381220599}
+  - component: {fileID: 1381220602}
   m_Layer: 5
   m_Name: MedBTN
   m_TagString: Untagged
@@ -7996,6 +8274,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1381220597}
   m_CullTransparentMesh: 1
+--- !u!114 &1381220602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381220597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 100c9362d03d20045b61441159272797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _currentSpeed: 80
 --- !u!1 &1446773238
 GameObject:
   m_ObjectHideFlags: 0
@@ -8282,7 +8573,7 @@ GameObject:
   - component: {fileID: 1562492018}
   m_Layer: 5
   m_Name: SayDialog
-  m_TagString: Untagged
+  m_TagString: SayDialogue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8944,6 +9235,7 @@ GameObject:
   - component: {fileID: 1649872309}
   - component: {fileID: 1649872308}
   - component: {fileID: 1649872307}
+  - component: {fileID: 1649872310}
   m_Layer: 5
   m_Name: FastBTN
   m_TagString: Untagged
@@ -9064,6 +9356,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1649872305}
   m_CullTransparentMesh: 1
+--- !u!114 &1649872310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1649872305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 100c9362d03d20045b61441159272797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _currentSpeed: 200
 --- !u!1 &1656698604
 GameObject:
   m_ObjectHideFlags: 0
@@ -9421,6 +9726,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1728592024}
   - component: {fileID: 1728592025}
+  - component: {fileID: 1728592026}
   m_Layer: 5
   m_Name: SliderMusic
   m_TagString: Untagged
@@ -9495,24 +9801,37 @@ MonoBehaviour:
   m_HandleRect: {fileID: 507117772}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 100
+  m_MaxValue: 20
   m_WholeNumbers: 1
-  m_Value: 50
+  m_Value: 2
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2059788693}
-        m_TargetAssemblyTypeName: SettingsButtonScript, Assembly-CSharp
-        m_MethodName: MusicVolumeChange
-        m_Mode: 1
+      - m_Target: {fileID: 1728592026}
+        m_TargetAssemblyTypeName: VolumeSlider, Assembly-CSharp
+        m_MethodName: OnSliderChange
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: VolumeMusic
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1728592026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728592023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 043ab23cba37c66459732860bb30a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixer: {fileID: 3369888018935593109, guid: 97db4a4054a9f8141992027916b0a96b, type: 2}
 --- !u!1 &1776133387
 GameObject:
   m_ObjectHideFlags: 0
@@ -9709,7 +10028,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -10045,7 +10364,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2059788692
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10177,6 +10496,18 @@ MonoBehaviour:
       - m_Target: {fileID: 2059788693}
         m_TargetAssemblyTypeName: SettingsButtonScript, Assembly-CSharp
         m_MethodName: FullscreenClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 525233965}
+        m_TargetAssemblyTypeName: SettingData, Assembly-CSharp
+        m_MethodName: fullscreenOnOff
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

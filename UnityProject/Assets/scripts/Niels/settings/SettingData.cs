@@ -9,6 +9,8 @@ public class SettingData:MonoBehaviour
     public float writingSpeed = 80;
     private Writer _currentWriter;
 
+    private bool _isFullscreenOn = false;
+
     private void Start()
     {
         _currentWriter = GameObject.FindGameObjectsWithTag("SayDialogue").First().GetComponent<Writer>();
@@ -18,6 +20,23 @@ public class SettingData:MonoBehaviour
     {
         //update writingSpeed;
         _currentWriter.writingSpeed = writingSpeed;
+    }
+
+    //Writing speed buttons--------------------------
+
+    //Fullscreen ---------------------------------------------------
+    public void fullscreenOnOff()
+    {
+        if (_isFullscreenOn)
+        {
+            Screen.fullScreen = false;
+            Debug.Log("fullScreen = false");
+        }
+        else
+        {
+            Screen.fullScreen = true;
+            Debug.Log("fullScreen = true");
+        }
     }
 }
 
