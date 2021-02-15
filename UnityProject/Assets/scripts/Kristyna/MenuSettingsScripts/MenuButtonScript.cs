@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuButtonScript : MonoBehaviour
 {
@@ -8,9 +9,13 @@ public class MenuButtonScript : MonoBehaviour
     /// Script for interaction with the menu and its sub-menus via buttons.
     /// </summary>
 
+    [Header("Objects to hide")]
     //TextBox pane
     public GameObject textBoxPanel;
     private bool _textboxPanelActive = true;
+    [Space(10)]
+    public GameObject[] ObjectsToHide;
+    private bool _objectsHidden = false;
 
     //Menu in general:
     public GameObject MenuObj;
@@ -48,6 +53,30 @@ public class MenuButtonScript : MonoBehaviour
             _textboxPanelActive = false;
         }
     }
+    // OBJECTS TO HIDE ---------------------------------
+    public void HideAllObjects()
+    {
+        if (!_objectsHidden)
+        {
+            foreach (GameObject element in ObjectsToHide)
+            {
+                element.SetActive(false);
+            }
+            _objectsHidden = !_objectsHidden;
+        }
+    }
+    public void ShowAllObjects()
+    {
+        if (_objectsHidden)
+        {
+            foreach (GameObject element in ObjectsToHide)
+            {
+                element.SetActive(true);
+            }
+            _objectsHidden = !_objectsHidden;
+        }        
+    }
+
     // MENU --------------------------------------------
     public void OpenMenu()
     {
@@ -130,7 +159,8 @@ public class MenuButtonScript : MonoBehaviour
         {             
             Debug.Log("Save and Quit open");
             CloseMenu();//so buttons from menu cannot be clicked
-            //CHANGE THE SCENE
+
+            SceneManager.LoadScene("MenuExample");
         }
     }
 }

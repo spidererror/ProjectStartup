@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Niels/MenuExamples/MenuExample.unity
     guid: 0499f821d45ec7744b30532bff8f0619
   - enabled: 1
-    path: Assets/Scenes/Niels/MenuExamples/MenuLoadingExample.unity
-    guid: 10098d7eda4d60c4190e50877c68fbb5
+    path: Assets/Scenes/Niels/PhoneDialogue/PhoneDialogue.unity
+    guid: 59c4d95eed4097c46a64dd30acb463ee
+  - enabled: 1
+    path: Assets/Scenes/Kristyna/TestSimulation#1294.unity
+    guid: 43842484d4553af41ab9f669716f420b
   m_configObjects: {}
