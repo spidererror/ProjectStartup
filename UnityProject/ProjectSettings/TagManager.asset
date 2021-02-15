@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - ExecuteSettingsManager
+  - SayDialogue
+  - Settings
   layers:
   - Default
   - TransparentFX
