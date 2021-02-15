@@ -31,9 +31,6 @@ public class SettingsButtonScript : MonoBehaviour
     public Slider SoundSlider;
 
     //Events for "ExecuteSettingsManager" to change the game's elements
-    //fullscreen:
-    public static event Action FullscreenOn;
-    public static event Action FullscreenOff;
     //text speed:
     public static event Action SlowTextSpeed;
     public static event Action MedTextSpeed;
@@ -133,14 +130,6 @@ public class SettingsButtonScript : MonoBehaviour
     //Look through all the settings
     public void SavePressed()
     {
-        //fullscreen
-        if (_fullscreenModeActive == true)
-        {
-            FullscreenOn();
-        }
-        else{
-            FullscreenOff();
-        }
         //Text speed
         if (_slowActive == true)
         {

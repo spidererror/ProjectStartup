@@ -14,25 +14,12 @@ public class ExecuteSettingsManager : MonoBehaviour
     void Start()
     {   
         //listen to events from SettingsButtonScript
-        SettingsButtonScript.FullscreenOn += fullscreenOn;
-        SettingsButtonScript.FullscreenOff += fullscreenOff;
 
         SettingsButtonScript.SlowTextSpeed += textSpeedSlow;
         SettingsButtonScript.MedTextSpeed += textSpeedMed;
         SettingsButtonScript.FastTextSpeed += textSpeedFast;
     }
 
-    //Fullscreen ---------------------------------------------------
-    private void fullscreenOn()
-    {
-        Screen.fullScreen = true;
-        Debug.Log("fullScreen = true");
-    }
-    private void fullscreenOff()
-    {
-        Screen.fullScreen = false;
-        Debug.Log("fullScreen = false");
-    }
 
     //Text speed ---------------------------------------------------
     private void textSpeedSlow()

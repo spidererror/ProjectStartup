@@ -6,7 +6,7 @@ public class ActionOnClick : MonoBehaviour
 {
     private Button _currentButton;
 
-    private void Start()
+    protected virtual void Start()
     {
         _currentButton = GetComponent<Button>();
         _currentButton.onClick.AddListener(() => onClick());
