@@ -22,7 +22,6 @@ public class SettingData:MonoBehaviour
         _currentWriter.writingSpeed = writingSpeed;
     }
 
-    //Writing speed buttons--------------------------
 
     //Fullscreen ---------------------------------------------------
     public void fullscreenOnOff()
