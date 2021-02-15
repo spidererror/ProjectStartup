@@ -4,6 +4,8 @@ using System;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
+using System.Linq;
+
 public class VolumeSlider : MonoBehaviour
 {
     public AudioMixerGroup mixer;
