@@ -64,15 +64,16 @@ public class DuplicatePanel : MonoBehaviour
             if (i<_allDuplicates.Count-1)
             {
                 float defaultHeight =  1600;
-                _allDuplicates[i].transform.position = new Vector3(_allDuplicates[i].transform.position.x, _allDuplicates[i].transform.position.y + (offsetY*Screen.height/defaultHeight)+(_allDuplicates[i+1].rect.height * Screen.height / defaultHeight), _allDuplicates[i].transform.position.z);
+                _allDuplicates[i].transform.position = new Vector3(_allDuplicates[i].transform.position.x, _allDuplicates[i].transform.position.y + (offsetY * Screen.height / defaultHeight) +(_allDuplicates[i+1].rect.height * Screen.height / defaultHeight), _allDuplicates[i].transform.position.z);
 
             }
             else
             {
+                float defaultWidth = 1600;
                 float newX = 0;
                 if (_pressedButton)
                 {
-                    newX = offsetX;
+                    newX = offsetX * (Screen.width/defaultWidth);
                     _pressedButton = false;
                 }
                 _allDuplicates[i].transform.position = new Vector3(_allDuplicates[i].transform.position.x+newX, _allDuplicates[i].transform.position.y + offsetY, _allDuplicates[i].transform.position.z);

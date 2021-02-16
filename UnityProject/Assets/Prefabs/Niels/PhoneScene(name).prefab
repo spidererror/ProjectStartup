@@ -2327,8 +2327,8 @@ MonoBehaviour:
   gameObjectInactive: {fileID: 1849237668047903452}
   objectToDuplicate: {fileID: 1849237668783030987}
   parent: {fileID: 1849237669202777776}
-  offsetY: 60
-  offsetX: 50
+  offsetY: 120
+  offsetX: 100
 --- !u!1 &1849237668589563417
 GameObject:
   m_ObjectHideFlags: 0
