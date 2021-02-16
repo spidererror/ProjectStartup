@@ -18,6 +18,6 @@ public class VolumeSlider : MonoBehaviour
 
     public void OnSliderChange(string volumeName)
     {
-        mixer.audioMixer.SetFloat(volumeName, _startValue*_slider.value);
+        mixer.audioMixer.SetFloat(volumeName, _slider.value);
     }
 }
