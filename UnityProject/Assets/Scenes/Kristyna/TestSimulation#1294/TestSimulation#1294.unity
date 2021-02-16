@@ -3639,7 +3639,6 @@ GameObject:
   - component: {fileID: 64960822}
   - component: {fileID: 64960821}
   - component: {fileID: 64960820}
-  - component: {fileID: 64960823}
   - component: {fileID: 64960824}
   m_Layer: 5
   m_Name: MenuBTN
@@ -3773,20 +3772,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 64960818}
   m_CullTransparentMesh: 1
---- !u!114 &64960823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 64960818}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e7fc8c3859caa743b848e920db9458d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turnOffScreen: {fileID: 0}
-  turnOnScreen: {fileID: 0}
 --- !u!212 &64960824
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6569,7 +6554,6 @@ MonoBehaviour:
   textBoxPanel: {fileID: 289946270}
   ObjectsToHide:
   - {fileID: 1308505756}
-  - {fileID: 289946270}
   MenuObj: {fileID: 809626557}
   SettingsObj: {fileID: 2059788691}
   SaveLoadObj: {fileID: 609536382}

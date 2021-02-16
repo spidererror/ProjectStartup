@@ -11,6 +11,7 @@ public class MenuButtonScript : MonoBehaviour
 
     [Header("Objects to hide")]
     //TextBox pane
+    public bool areThereThingsToHide = true;
     public GameObject textBoxPanel;
     private bool _textboxPanelActive = true;
     [Space(10)]
@@ -56,25 +57,32 @@ public class MenuButtonScript : MonoBehaviour
     // OBJECTS TO HIDE ---------------------------------
     public void HideAllObjects()
     {
-        if (!_objectsHidden)
+        if (areThereThingsToHide)
         {
-            foreach (GameObject element in ObjectsToHide)
+            if (!_objectsHidden)
             {
-                element.SetActive(false);
+                foreach (GameObject element in ObjectsToHide)
+                {
+                    element.SetActive(false);
+                }
+                _objectsHidden = !_objectsHidden;
             }
-            _objectsHidden = !_objectsHidden;
         }
+        
     }
     public void ShowAllObjects()
     {
-        if (_objectsHidden)
+        if (areThereThingsToHide)
         {
-            foreach (GameObject element in ObjectsToHide)
+            if (_objectsHidden)
             {
-                element.SetActive(true);
+                foreach (GameObject element in ObjectsToHide)
+                {
+                    element.SetActive(true);
+                }
+                _objectsHidden = !_objectsHidden;
             }
-            _objectsHidden = !_objectsHidden;
-        }        
+        }    
     }
 
     // MENU --------------------------------------------
@@ -104,6 +112,7 @@ public class MenuButtonScript : MonoBehaviour
             if (_settingsActive == false)
             {
                 CloseMenu();//so buttons from menu cannot be clicked
+                _menuActive = true;//but it won't show again if you are in settings and click the menu button again
 
                 Debug.Log("Settings open");
                 SettingsObj.SetActive(true);
@@ -115,6 +124,7 @@ public class MenuButtonScript : MonoBehaviour
     {
         if (_settingsActive == true)
         {
+            _menuActive = false;//so the menu can show again
             OpenMenu();//make menu accessible/usable again
 
             Debug.Log("Settings close");
@@ -130,6 +140,7 @@ public class MenuButtonScript : MonoBehaviour
             if (_saveLoadActive == false)
             {
                 CloseMenu();//so buttons from menu cannot be clicked
+                _menuActive = true;//but it won't show again if you are in settings and click the menu button again
 
                 Debug.Log("Save and Load open");
                 SaveLoadObj.SetActive(true);
@@ -139,16 +150,14 @@ public class MenuButtonScript : MonoBehaviour
     }
     public void CloseSaveLoad()
     {
-        if (_menuActive == false)
+        if (_saveLoadActive == true)
         {
-            if (_saveLoadActive == true)
-            {
-                OpenMenu();//so buttons from menu cannot be clicked
+            _menuActive = false;
+            OpenMenu();//so buttons from menu cannot be clicked
 
-                Debug.Log("Save and Load close");
-                SaveLoadObj.SetActive(false);
-                _saveLoadActive = false;
-            }
+            Debug.Log("Save and Load close");
+            SaveLoadObj.SetActive(false);//turn of the save menu (blackboard)
+            _saveLoadActive = false;//turn of all the objects belonging to the save menu
         }
     }
 
@@ -157,7 +166,7 @@ public class MenuButtonScript : MonoBehaviour
     {
         if (_menuActive == true)
         {             
-            Debug.Log("Save and Quit open");
+            //Debug.Log("Save and Quit open");
             CloseMenu();//so buttons from menu cannot be clicked
 
             SceneManager.LoadScene("MenuExample");
