@@ -5019,6 +5019,10 @@ GameObject:
   - component: {fileID: 1401722959}
   - component: {fileID: 1401722961}
   - component: {fileID: 1401722966}
+  - component: {fileID: 1401722970}
+  - component: {fileID: 1401722969}
+  - component: {fileID: 1401722968}
+  - component: {fileID: 1401722967}
   m_Layer: 0
   m_Name: TestSimulation
   m_TagString: Untagged
@@ -5055,6 +5059,10 @@ MonoBehaviour:
   selectedCommands: []
   variables:
   - {fileID: 1401722959}
+  - {fileID: 1401722970}
+  - {fileID: 1401722969}
+  - {fileID: 1401722968}
+  - {fileID: 1401722967}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -5262,6 +5270,66 @@ MonoBehaviour:
   parentBlock: {fileID: 1401722960}
   suppressBlockAutoSelect: 0
   waitForFrames: 1
+--- !u!114 &1401722967
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401722957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: Daisy
+  value: 0
+--- !u!114 &1401722968
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401722957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: Gloria
+  value: 0
+--- !u!114 &1401722969
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401722957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: Jeremy
+  value: 0
+--- !u!114 &1401722970
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401722957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: Awoo
+  value: 0
 --- !u!4 &1401723076
 Transform:
   m_ObjectHideFlags: 0
