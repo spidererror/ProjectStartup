@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Niels/PhoneDialogue/PhoneDialogue.unity
     guid: 59c4d95eed4097c46a64dd30acb463ee
   - enabled: 1
-    path: Assets/Scenes/Kristyna/TestSimulation#1294/TestSimulation#1294.unity
+    path: Assets/Prefabs/Kristyna/TestSimulation#1294.unity
     guid: 43842484d4553af41ab9f669716f420b
   - enabled: 1
     path: Assets/Scenes/Niels/PhoneDialogue/PhoneDialogueClass.unity
