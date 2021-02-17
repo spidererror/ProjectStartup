@@ -765,6 +765,10 @@ GameObject:
   - component: {fileID: 1849237668244857540}
   - component: {fileID: 1849237668244857541}
   - component: {fileID: 1849237668244857546}
+  - component: {fileID: 4516588093282451903}
+  - component: {fileID: 7311324348904363773}
+  - component: {fileID: 3563543087546174413}
+  - component: {fileID: 2055502113248588415}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -810,11 +814,14 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1849237668244857564}
+  selectedBlocks: []
   selectedCommands:
   - {fileID: 1849237668244857539}
-  variables: []
+  variables:
+  - {fileID: 4516588093282451903}
+  - {fileID: 7311324348904363773}
+  - {fileID: 3563543087546174413}
+  - {fileID: 2055502113248588415}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -1706,6 +1713,66 @@ MonoBehaviour:
   parentBlock: {fileID: 1849237668244857564}
   suppressBlockAutoSelect: 0
   waitForFrames: 1
+--- !u!114 &4516588093282451903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849237668244857572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: Awoo
+  value: 0
+--- !u!114 &7311324348904363773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849237668244857572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: Daisy
+  value: 0
+--- !u!114 &3563543087546174413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849237668244857572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: Jeremy
+  value: 0
+--- !u!114 &2055502113248588415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849237668244857572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: Gloria
+  value: 0
 --- !u!1 &1849237668265189248
 GameObject:
   m_ObjectHideFlags: 0
