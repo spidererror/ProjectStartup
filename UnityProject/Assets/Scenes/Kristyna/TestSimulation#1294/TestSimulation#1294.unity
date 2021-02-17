@@ -224,6 +224,10 @@ GameObject:
   - component: {fileID: 4394968}
   - component: {fileID: 4394966}
   - component: {fileID: 4394913}
+  - component: {fileID: 4394899}
+  - component: {fileID: 4394898}
+  - component: {fileID: 4394897}
+  - component: {fileID: 4394896}
   m_Layer: 0
   m_Name: TestSimulation
   m_TagString: Untagged
@@ -949,6 +953,10 @@ MonoBehaviour:
   selectedCommands: []
   variables:
   - {fileID: 4394961}
+  - {fileID: 4394899}
+  - {fileID: 4394898}
+  - {fileID: 4394897}
+  - {fileID: 4394896}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -1492,6 +1500,66 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &4394896
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4394850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: Gloria
+  value: 0
+--- !u!114 &4394897
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4394850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: Jeremy
+  value: 0
+--- !u!114 &4394898
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4394850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: Daisy
+  value: 0
+--- !u!114 &4394899
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4394850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: Awoo
+  value: 0
 --- !u!114 &4394913
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6551,6 +6619,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f64f2a7ff18410c4c84878c278b4bd24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  areThereThingsToHide: 1
   textBoxPanel: {fileID: 289946270}
   ObjectsToHide:
   - {fileID: 1308505756}
