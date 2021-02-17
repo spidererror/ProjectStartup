@@ -198,6 +198,24 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &156699382 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1849237669819179425, guid: 6ae20f7c0b4e28b42878059765dc6055, type: 3}
+  m_PrefabInstance: {fileID: 808422975}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &156699384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156699382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f06cb565d50b2c545a901a0f731dbb9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CursorBMP: {fileID: 2800000, guid: 0d78344baf72d9544b39ca370cd248a4, type: 3}
 --- !u!1 &163679257
 GameObject:
   m_ObjectHideFlags: 0

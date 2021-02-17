@@ -5977,7 +5977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f06cb565d50b2c545a901a0f731dbb9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CursorBMP: {fileID: 2800000, guid: 1a56cf1dd49c78a4a80f8108eb504f34, type: 3}
+  CursorBMP: {fileID: 2800000, guid: 0d78344baf72d9544b39ca370cd248a4, type: 3}
 --- !u!1 &1018472291
 GameObject:
   m_ObjectHideFlags: 0
@@ -6551,6 +6551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f64f2a7ff18410c4c84878c278b4bd24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  areThereThingsToHide: 1
   textBoxPanel: {fileID: 289946270}
   ObjectsToHide:
   - {fileID: 1308505756}
