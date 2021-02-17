@@ -31,27 +31,24 @@ public class DuplicatePanel : MonoBehaviour
 
     public void DuplicateOnClick(bool mirror)
     {
-        if (_currentText != textChange.text)
+        _allDuplicates.Add(Instantiate(objectToDuplicate, parent));
+        positoinPreviousDuplicates();
+            
+        _currentText = textChange.text;
+
+        float defaultWidth = 1600;
+
+        if (mirror)
         {
-            _allDuplicates.Add(Instantiate(objectToDuplicate, parent));
-            positoinPreviousDuplicates();
-
-            _currentText = textChange.text;
-            float defaultWidth = 1600;
-
-            if (mirror)
-            {
-                currentDialogueImage.sprite = mirroredDialogueBox;
-                objectToDuplicate.position = new Vector3(objectToDuplicate.position.x + (offsetX * (Screen.width / defaultWidth)), objectToDuplicate.position.y);
-                _pressedButton = true;
-            }
-            else
-            {
-                objectToDuplicate.position = _startPosition;
-                currentDialogueImage.sprite = defaultDialogueBox;
-            }
+            currentDialogueImage.sprite = mirroredDialogueBox;
+            objectToDuplicate.position = new Vector3(objectToDuplicate.position.x + (offsetX * (Screen.width / defaultWidth)), objectToDuplicate.position.y);
+            _pressedButton = true;
         }
-        
+        else
+        {
+            objectToDuplicate.position = _startPosition;
+            currentDialogueImage.sprite = defaultDialogueBox;
+        }
 
     }
 
