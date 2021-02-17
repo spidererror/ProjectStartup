@@ -274,6 +274,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3277567632003669205, guid: 0de0194e4588a7141ba75aa84b5cb254, type: 3}
+      propertyPath: commandList.Array.size
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3986992498543668768, guid: 0de0194e4588a7141ba75aa84b5cb254, type: 3}
       propertyPath: selectedBlocks.Array.size
       value: 1
@@ -326,7 +330,9 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1076990975847101861, guid: 0de0194e4588a7141ba75aa84b5cb254, type: 3}
+    - {fileID: 3053674093977499100, guid: 0de0194e4588a7141ba75aa84b5cb254, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0de0194e4588a7141ba75aa84b5cb254, type: 3}
 --- !u!114 &580514872 stripped
 MonoBehaviour:
