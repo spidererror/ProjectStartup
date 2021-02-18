@@ -1,0 +1,888 @@
+fileFormatVersion: 2
+guid: 6fe86e8d349717d4a98fd2374d978bbe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4784842910552244751
+    second: spritesheetlogo2_0
+  - first:
+      213: 8378025345906777722
+    second: spritesheetlogo2_1
+  - first:
+      213: -3531900413509862286
+    second: spritesheetlogo2_2
+  - first:
+      213: 111611563710335099
+    second: spritesheetlogo2_3
+  - first:
+      213: 1555099876266482728
+    second: spritesheetlogo2_4
+  - first:
+      213: -2387981907842498645
+    second: spritesheetlogo2_5
+  - first:
+      213: 6480923309163101755
+    second: spritesheetlogo2_6
+  - first:
+      213: -8558928583309320971
+    second: spritesheetlogo2_7
+  - first:
+      213: -1052845535806416681
+    second: spritesheetlogo2_8
+  - first:
+      213: -1140469296374220543
+    second: spritesheetlogo2_9
+  - first:
+      213: 1822509915097953280
+    second: spritesheetlogo2_10
+  - first:
+      213: 8943980654122607452
+    second: spritesheetlogo2_11
+  - first:
+      213: 5807211011717162011
+    second: spritesheetlogo2_12
+  - first:
+      213: 599945819784650789
+    second: spritesheetlogo2_13
+  - first:
+      213: 5498071662879566103
+    second: spritesheetlogo2_14
+  - first:
+      213: -8732001191464982449
+    second: spritesheetlogo2_15
+  - first:
+      213: -6497719277598702888
+    second: spritesheetlogo2_16
+  - first:
+      213: 2867037208548359994
+    second: spritesheetlogo2_17
+  - first:
+      213: 5038539448672898517
+    second: spritesheetlogo2_18
+  - first:
+      213: -6394870755779480374
+    second: spritesheetlogo2_19
+  - first:
+      213: -5363928414977039746
+    second: spritesheetlogo2_20
+  - first:
+      213: 8513999640728091504
+    second: spritesheetlogo2_21
+  - first:
+      213: -2282029616276376169
+    second: spritesheetlogo2_22
+  - first:
+      213: 6825852479698724535
+    second: spritesheetlogo2_23
+  - first:
+      213: 3324106368895649630
+    second: spritesheetlogo2_24
+  - first:
+      213: -9064174358213982799
+    second: spritesheetlogo2_25
+  - first:
+      213: 3047471588005183861
+    second: spritesheetlogo2_26
+  - first:
+      213: -7706916953828679043
+    second: spritesheetlogo2_27
+  - first:
+      213: -7968778833586653327
+    second: spritesheetlogo2_28
+  - first:
+      213: -6260709189340003342
+    second: spritesheetlogo2_29
+  - first:
+      213: 3595120742543877539
+    second: spritesheetlogo2_30
+  - first:
+      213: -2736273237080043737
+    second: spritesheetlogo2_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheetlogo2_0
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 2485
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f024385a64d276240800000000000000
+      internalID: 4784842910552244751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_1
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 2485
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e1ef5d9a9b44470800000000000000
+      internalID: 8378025345906777722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_2
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 2485
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c70b6694b2cfec0800000000000000
+      internalID: -3531900413509862286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_3
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 2485
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78c7c730268c8100800000000000000
+      internalID: 111611563710335099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_4
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 2485
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c1e132913d49510800000000000000
+      internalID: 1555099876266482728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1988
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baffcfc5b1f2cded0800000000000000
+      internalID: -2387981907842498645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_6
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1988
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e373b896dd0f950800000000000000
+      internalID: 6480923309163101755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_7
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1988
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc19e5fcc3983980800000000000000
+      internalID: -8558928583309320971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_8
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 1988
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d817ea309a8361f0800000000000000
+      internalID: -1052845535806416681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_9
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1988
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109ff58a73d3c20f0800000000000000
+      internalID: -1140469296374220543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_10
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 1988
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0047a099c1bda4910800000000000000
+      internalID: 1822509915097953280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1491
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53a1f684076f1c70800000000000000
+      internalID: 8943980654122607452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_12
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1491
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b146321b5ab579050800000000000000
+      internalID: 5807211011717162011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_13
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1491
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520aeb06b8f635800800000000000000
+      internalID: 599945819784650789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_14
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 1491
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719e39f1c031d4c40800000000000000
+      internalID: 5498071662879566103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_15
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1491
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4821743e23b1d680800000000000000
+      internalID: -8732001191464982449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_16
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 1491
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d285805eb673d5a0800000000000000
+      internalID: -6497719277598702888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 994
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f3a55a623c9c720800000000000000
+      internalID: 2867037208548359994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_18
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 994
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ddc0f8eeec7ce540800000000000000
+      internalID: 5038539448672898517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_19
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 994
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4fa39ddead047a0800000000000000
+      internalID: -6394870755779480374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_20
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 994
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e726ba0a68f7f85b0800000000000000
+      internalID: -5363928414977039746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_21
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 994
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bb66b609dc72670800000000000000
+      internalID: 8513999640728091504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_22
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 994
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795fcea972a9450e0800000000000000
+      internalID: -2282029616276376169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 497
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b669a55aac4abe50800000000000000
+      internalID: 6825852479698724535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_24
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 497
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5783a17129912e20800000000000000
+      internalID: 3324106368895649630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_25
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 497
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5837cf175953280800000000000000
+      internalID: -9064174358213982799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_26
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 497
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571052a534bca4a20800000000000000
+      internalID: 3047471588005183861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_27
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 497
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d722b9d0dd78b0590800000000000000
+      internalID: -7706916953828679043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_28
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 497
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1777a6a0fd5396190800000000000000
+      internalID: -7968778833586653327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f38d57b92e7d19a0800000000000000
+      internalID: -6260709189340003342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_30
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 0
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a567ff744f64e130800000000000000
+      internalID: 3595120742543877539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogo2_31
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 0
+        width: 407
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f8f6ffcfdc60ad0800000000000000
+      internalID: -2736273237080043737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a910e9ca779c9814cb79cfe4e26ac3c1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
