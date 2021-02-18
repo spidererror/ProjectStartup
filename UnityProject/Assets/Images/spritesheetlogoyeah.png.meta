@@ -1,7 +1,103 @@
 fileFormatVersion: 2
 guid: 53ede94c8b7a9eb4bbdb11c0630a244d
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -970261163822612036
+    second: spritesheetlogoyeah_0
+  - first:
+      213: -3728735904288032667
+    second: spritesheetlogoyeah_1
+  - first:
+      213: 781251828038466843
+    second: spritesheetlogoyeah_2
+  - first:
+      213: 5089331007102210398
+    second: spritesheetlogoyeah_3
+  - first:
+      213: -4654916574178351469
+    second: spritesheetlogoyeah_4
+  - first:
+      213: -3549285706579514131
+    second: spritesheetlogoyeah_5
+  - first:
+      213: -708583647837344633
+    second: spritesheetlogoyeah_6
+  - first:
+      213: 8686245721760655544
+    second: spritesheetlogoyeah_7
+  - first:
+      213: -1606840901040274336
+    second: spritesheetlogoyeah_8
+  - first:
+      213: -8827351217843486117
+    second: spritesheetlogoyeah_9
+  - first:
+      213: 6790398619097317345
+    second: spritesheetlogoyeah_10
+  - first:
+      213: -6784155071589090033
+    second: spritesheetlogoyeah_11
+  - first:
+      213: 415291995580145414
+    second: spritesheetlogoyeah_12
+  - first:
+      213: 4765196735888835102
+    second: spritesheetlogoyeah_13
+  - first:
+      213: 7963441458505969443
+    second: spritesheetlogoyeah_14
+  - first:
+      213: 2116411243015761208
+    second: spritesheetlogoyeah_15
+  - first:
+      213: 3706209298258112339
+    second: spritesheetlogoyeah_16
+  - first:
+      213: -4760151088656325876
+    second: spritesheetlogoyeah_17
+  - first:
+      213: -3053100428034629414
+    second: spritesheetlogoyeah_18
+  - first:
+      213: 1814084733152506664
+    second: spritesheetlogoyeah_19
+  - first:
+      213: -6896802589671165115
+    second: spritesheetlogoyeah_20
+  - first:
+      213: 7732457727519433054
+    second: spritesheetlogoyeah_21
+  - first:
+      213: 56996184595260497
+    second: spritesheetlogoyeah_22
+  - first:
+      213: 3095481289518625937
+    second: spritesheetlogoyeah_23
+  - first:
+      213: -8185679263965863271
+    second: spritesheetlogoyeah_24
+  - first:
+      213: 276592337277474989
+    second: spritesheetlogoyeah_25
+  - first:
+      213: -2313504465147165680
+    second: spritesheetlogoyeah_26
+  - first:
+      213: -3200958267855244379
+    second: spritesheetlogoyeah_27
+  - first:
+      213: -2520305512775522189
+    second: spritesheetlogoyeah_28
+  - first:
+      213: 924859948523880508
+    second: spritesheetlogoyeah_29
+  - first:
+      213: -1998830496910920631
+    second: spritesheetlogoyeah_30
+  - first:
+      213: 8500106678909591824
+    second: spritesheetlogoyeah_31
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +128,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -41,7 +137,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -65,11 +161,11 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
+    textureFormat: 4
+    textureCompression: 2
+    compressionQuality: 100
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
@@ -77,11 +173,11 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
+    textureFormat: 4
+    textureCompression: 2
+    compressionQuality: 100
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
@@ -89,11 +185,11 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
+    textureFormat: 4
+    textureCompression: 2
+    compressionQuality: 100
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
@@ -101,7 +197,679 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_0
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 1493
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb10ff6bc90f882f0800000000000000
+      internalID: -970261163822612036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_1
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 1493
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568baa3637ed04cc0800000000000000
+      internalID: -3728735904288032667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_2
+      rect:
+        serializedVersion: 2
+        x: 2440
+        y: 1493
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d7b5af56097da00800000000000000
+      internalID: 781251828038466843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_3
+      rect:
+        serializedVersion: 2
+        x: 3050
+        y: 1493
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5155b6269fe0a640800000000000000
+      internalID: 5089331007102210398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_4
+      rect:
+        serializedVersion: 2
+        x: 3660
+        y: 1493
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3966501e90a666fb0800000000000000
+      internalID: -4654916574178351469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_5
+      rect:
+        serializedVersion: 2
+        x: 4270
+        y: 1493
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dece4fc64776ebec0800000000000000
+      internalID: -3549285706579514131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_6
+      rect:
+        serializedVersion: 2
+        x: 4880
+        y: 1493
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c21013dea9a26f0800000000000000
+      internalID: -708583647837344633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_7
+      rect:
+        serializedVersion: 2
+        x: 5490
+        y: 1493
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8ec45567ebb8870800000000000000
+      internalID: 8686245721760655544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_8
+      rect:
+        serializedVersion: 2
+        x: 6100
+        y: 1493
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0640de2c6ba53b9e0800000000000000
+      internalID: -1606840901040274336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_9
+      rect:
+        serializedVersion: 2
+        x: 6710
+        y: 1493
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52c3d036d2fe7580800000000000000
+      internalID: -8827351217843486117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 749
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef399621975c3e50800000000000000
+      internalID: 6790398619097317345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_11
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 749
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d74c808e6d9d1a0800000000000000
+      internalID: -6784155071589090033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_12
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 749
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f1e92aed963c500800000000000000
+      internalID: 415291995580145414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_13
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 749
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1241872f21612240800000000000000
+      internalID: 4765196735888835102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_14
+      rect:
+        serializedVersion: 2
+        x: 2440
+        y: 749
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32feddb70d3d38e60800000000000000
+      internalID: 7963441458505969443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_15
+      rect:
+        serializedVersion: 2
+        x: 3050
+        y: 749
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83de892ffc00f5d10800000000000000
+      internalID: 2116411243015761208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_16
+      rect:
+        serializedVersion: 2
+        x: 3660
+        y: 749
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35faced68b91f6330800000000000000
+      internalID: 3706209298258112339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_17
+      rect:
+        serializedVersion: 2
+        x: 4270
+        y: 749
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0363732ecb80fdb0800000000000000
+      internalID: -4760151088656325876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_18
+      rect:
+        serializedVersion: 2
+        x: 4880
+        y: 749
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad02763365531a5d0800000000000000
+      internalID: -3053100428034629414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_19
+      rect:
+        serializedVersion: 2
+        x: 5490
+        y: 749
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823b300147cec2910800000000000000
+      internalID: 1814084733152506664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_20
+      rect:
+        serializedVersion: 2
+        x: 6100
+        y: 749
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543f7a4e592a940a0800000000000000
+      internalID: -6896802589671165115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_21
+      rect:
+        serializedVersion: 2
+        x: 6710
+        y: 749
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e512589b5553f4b60800000000000000
+      internalID: 7732457727519433054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1546a585abd7ac000800000000000000
+      internalID: 56996184595260497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_23
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 5
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19430ae05db55fa20800000000000000
+      internalID: 3095481289518625937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_24
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 5
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992a80a3410a66e80800000000000000
+      internalID: -8185679263965863271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_25
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 5
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8d40be347a6d300800000000000000
+      internalID: 276592337277474989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_26
+      rect:
+        serializedVersion: 2
+        x: 2440
+        y: 5
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0148f9842f7c4efd0800000000000000
+      internalID: -2313504465147165680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_27
+      rect:
+        serializedVersion: 2
+        x: 3050
+        y: 5
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a373af2a69e393d0800000000000000
+      internalID: -3200958267855244379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_28
+      rect:
+        serializedVersion: 2
+        x: 3660
+        y: 5
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3786e814d73160dd0800000000000000
+      internalID: -2520305512775522189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_29
+      rect:
+        serializedVersion: 2
+        x: 4270
+        y: 5
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3080ca1933c5dc00800000000000000
+      internalID: 924859948523880508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_30
+      rect:
+        serializedVersion: 2
+        x: 4880
+        y: 5
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9443869d04ab244e0800000000000000
+      internalID: -1998830496910920631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetlogoyeah_31
+      rect:
+        serializedVersion: 2
+        x: 5490
+        y: 5
+        width: 610
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011e45d2df176f570800000000000000
+      internalID: 8500106678909591824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
