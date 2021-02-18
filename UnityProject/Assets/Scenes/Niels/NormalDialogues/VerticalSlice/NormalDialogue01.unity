@@ -7414,6 +7414,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1050560277474149357, guid: 0de0194e4588a7141ba75aa84b5cb254, type: 3}
+      propertyPath: sceneName
+      value: NormalDialogue01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1050560277474149357, guid: 0de0194e4588a7141ba75aa84b5cb254, type: 3}
+      propertyPath: currentChapter
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1936278753762867768, guid: 0de0194e4588a7141ba75aa84b5cb254, type: 3}
       propertyPath: m_RootOrder
       value: 1
