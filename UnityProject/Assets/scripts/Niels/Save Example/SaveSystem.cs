@@ -22,6 +22,12 @@ public static class SaveSystem
         Debug.Log("saved scene at: "+path);
     }
 
+    public static void DeleteSaveAt(int saveSlot)
+    {
+        string path = Application.persistentDataPath + _saveFileName + saveSlot;
+        File.Delete(path);
+    }
+
     public static SceneData LoadScene(int saveSlot)
     {
         string path = Application.persistentDataPath + _saveFileName+saveSlot;
@@ -37,7 +43,7 @@ public static class SaveSystem
         }
         else
         {
-            Debug.LogError("Save file not found!");
+            Debug.Log("No Save To Load at: " + saveSlot);
             return null;
         }
     }

@@ -23,6 +23,11 @@ public class ActiveScene : MonoBehaviour
         SaveSystem.SaveScene(this,saveSlot);
     }
 
+    public void DeleteSave(int saveSlot)
+    {
+        SaveSystem.DeleteSaveAt(saveSlot);
+    }
+
     public void LoadScene(int saveSlot)
     {
         SceneData data = SaveSystem.LoadScene(saveSlot);
