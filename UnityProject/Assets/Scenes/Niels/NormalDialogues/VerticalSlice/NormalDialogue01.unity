@@ -428,7 +428,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93c0be84a10d9214e8ed8f2a0b53b0e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 1820409472}
 --- !u!114 &699238187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6607,7 +6606,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1050560277474149357, guid: 0de0194e4588a7141ba75aa84b5cb254, type: 3}
       propertyPath: sceneName
-      value: NormalDialogue
+      value: NormalDialogue01
       objectReference: {fileID: 0}
     - target: {fileID: 1050560277474149357, guid: 0de0194e4588a7141ba75aa84b5cb254, type: 3}
       propertyPath: currentChapter
@@ -6933,7 +6932,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8989802674173421064, guid: 0de0194e4588a7141ba75aa84b5cb254, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6722364311655985538, guid: 0de0194e4588a7141ba75aa84b5cb254, type: 3}
@@ -7108,9 +7107,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f10f8c5ae3140a46a9107855b4a450e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 341449286}
-  fadeInSec: 2
-  img: {fileID: 0}
 --- !u!114 &1479472758
 MonoBehaviour:
   m_ObjectHideFlags: 0
