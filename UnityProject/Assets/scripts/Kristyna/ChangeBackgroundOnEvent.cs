@@ -8,6 +8,7 @@ public class ChangeBackgroundOnEvent : MonoBehaviour
     public Sprite Class;
     public Sprite Hallway;
     public Sprite Outside;
+    public Sprite Cornerstone;
     public Sprite LectureHall;
     public Sprite DinningHall;
     [Space(10)]
@@ -36,6 +37,9 @@ public class ChangeBackgroundOnEvent : MonoBehaviour
         else if (DefaultName == "DinningHall")
         {
             ChildWithSprite.GetComponent<Image>().sprite = DinningHall;
+        }else if (DefaultName == "Cornerstone")
+        {
+            ChildWithSprite.GetComponent<Image>().sprite = Cornerstone;
         }
     }
 
@@ -58,5 +62,9 @@ public class ChangeBackgroundOnEvent : MonoBehaviour
     public void BackgroundDinningHall()
     {
         ChildWithSprite.GetComponent<Image>().sprite = DinningHall;
+    }
+    public void BackgroundCornerstone()
+    {
+        ChildWithSprite.GetComponent<Image>().sprite = Cornerstone;
     }
 }
