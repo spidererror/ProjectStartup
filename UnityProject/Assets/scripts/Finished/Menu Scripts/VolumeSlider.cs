@@ -9,11 +9,15 @@ using System.Linq;
 public class VolumeSlider : MonoBehaviour
 {
     public AudioMixerGroup mixer;
+    public string volumeName = "VolumeMusic";
     private Slider _slider;
     private float _startValue = 20;
+    private float _mixerValue;
     private void Start()
     {
         _slider = GetComponent<Slider>();
+        mixer.audioMixer.GetFloat(volumeName, out _mixerValue);
+        _slider.value = _mixerValue;
     }
 
     public void OnSliderChange(string volumeName)
