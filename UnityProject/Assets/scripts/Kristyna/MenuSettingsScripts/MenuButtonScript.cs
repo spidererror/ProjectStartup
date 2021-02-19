@@ -169,7 +169,7 @@ public class MenuButtonScript : MonoBehaviour
             //Debug.Log("Save and Quit open");
             CloseMenu();//so buttons from menu cannot be clicked
 
-            SceneManager.LoadScene("MenuExample");
+            SceneManager.LoadScene("MainMenu");
         }
     }
 }

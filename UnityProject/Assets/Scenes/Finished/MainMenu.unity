@@ -7662,7 +7662,7 @@ MonoBehaviour:
   dialogueID: 0
   currentCurseScore: 
   currentDate: 
-  sceneName: MenuExample
+  sceneName: MainMenu
 --- !u!4 &1751134355
 Transform:
   m_ObjectHideFlags: 0

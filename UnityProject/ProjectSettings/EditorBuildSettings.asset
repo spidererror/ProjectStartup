@@ -6,30 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Niels/MenuExamples/MenuExample.unity
+    path: Assets/Scenes/Finished/MainMenu.unity
     guid: 0499f821d45ec7744b30532bff8f0619
   - enabled: 1
-    path: Assets/Scenes/Niels/PhoneDialogue/VerticalSlice/PhoneDialogue01.unity
+    path: Assets/Scenes/Finished/Texting Bro.unity
     guid: 73199ff9e5c267c4d802ad6e00682199
   - enabled: 1
-    path: Assets/Scenes/Niels/PhoneDialogue/PhoneDialogue.unity
-    guid: 59c4d95eed4097c46a64dd30acb463ee
-  - enabled: 1
-    path: Assets/Scenes/Niels/PhoneDialogue/PhoneDialogueClass.unity
-    guid: 336a25000ccc70f40ab7bafdaac4e113
-  - enabled: 1
-    path: Assets/Scenes/Niels/PhoneDialogue/PhoneDialogueLectureHall.unity
-    guid: 7bbbea18541f7fc439a339a85390cf34
-  - enabled: 1
-    path: Assets/Scenes/Kristyna/TestSimulation#1294/AfterPhoneClass.unity
-    guid: 1ea6f21bf42e2a0488bd4b4af1b94565
-  - enabled: 1
-    path: Assets/Scenes/Kristyna/TestSimulation#1294/AfterPhoneLectureHall.unity
-    guid: 917059e7a7e51d4478d2a59f3bd6fc32
-  - enabled: 1
-    path: Assets/Scenes/Kristyna/TestSimulation#1294/TestSimulation#1294.unity
-    guid: cbf901ec6bdaa7b40ae67ec14a4ff7a9
-  - enabled: 1
-    path: Assets/Scenes/Niels/NormalDialogues/VerticalSlice/NormalDialogue01.unity
+    path: Assets/Scenes/Finished/Introduction.unity
     guid: 096de65ba0d673d4da0a8da8f7c51f23
   m_configObjects: {}

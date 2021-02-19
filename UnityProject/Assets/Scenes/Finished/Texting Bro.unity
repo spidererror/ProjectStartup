@@ -167,6 +167,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &396091679 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1849237668783030980, guid: 6ae20f7c0b4e28b42878059765dc6055, type: 3}
+  m_PrefabInstance: {fileID: 489158023}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &489158023
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -594,6 +599,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1849237669750460585, guid: 6ae20f7c0b4e28b42878059765dc6055, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -6
+      objectReference: {fileID: 0}
     - target: {fileID: 1849237669762014035, guid: 6ae20f7c0b4e28b42878059765dc6055, type: 3}
       propertyPath: nameColor.b
       value: 0.6666667
@@ -610,6 +619,22 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4556450818242054676, guid: 6ae20f7c0b4e28b42878059765dc6055, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322658155352249325, guid: 6ae20f7c0b4e28b42878059765dc6055, type: 3}
+      propertyPath: sceneName
+      value: Texting Bro
+      objectReference: {fileID: 0}
+    - target: {fileID: 6723727767040757115, guid: 6ae20f7c0b4e28b42878059765dc6055, type: 3}
+      propertyPath: textBoxPanel
+      value: 
+      objectReference: {fileID: 396091679}
+    - target: {fileID: 6723727767040757115, guid: 6ae20f7c0b4e28b42878059765dc6055, type: 3}
+      propertyPath: ObjectsToHide.Array.data[0]
+      value: 
+      objectReference: {fileID: 396091679}
     - target: {fileID: 6821394409543229626, guid: 6ae20f7c0b4e28b42878059765dc6055, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -748,7 +773,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 49
   indentLevel: 0
-  text: "They\u2019re not monsters\r\n"
+  text: "They\u2019re not monsters\r"
   description: 
   targetBlock: {fileID: 489158046}
   hideIfVisited: 0
@@ -1132,7 +1157,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: NormalDialogue01
+    stringVal: Introduction
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &489158055
@@ -1162,6 +1187,50 @@ MonoBehaviour:
   commandList:
   - {fileID: 489158054}
   suppressAllAutoSelections: 0
+--- !u!1 &608878268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 608878270}
+  - component: {fileID: 608878269}
+  m_Layer: 0
+  m_Name: mouse
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &608878269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608878268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f06cb565d50b2c545a901a0f731dbb9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CursorBMP: {fileID: 2800000, guid: 0d78344baf72d9544b39ca370cd248a4, type: 3}
+--- !u!4 &608878270
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608878268}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 281.63647, y: 650.56067, z: -2.2785645}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1172441855 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1849237669185836461, guid: 6ae20f7c0b4e28b42878059765dc6055, type: 3}
