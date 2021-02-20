@@ -4295,7 +4295,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bb145366ce7024469a5758b08d31802c, type: 3}
+    m_Font: {fileID: 12800000, guid: 0952b05f5e21ea94f94a1f88ed230f1b, type: 3}
     m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 1
@@ -5148,7 +5148,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bb145366ce7024469a5758b08d31802c, type: 3}
+    m_Font: {fileID: 12800000, guid: 0952b05f5e21ea94f94a1f88ed230f1b, type: 3}
     m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 1
@@ -6385,7 +6385,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bb145366ce7024469a5758b08d31802c, type: 3}
+    m_Font: {fileID: 12800000, guid: 0952b05f5e21ea94f94a1f88ed230f1b, type: 3}
     m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 1
@@ -7093,7 +7093,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bb145366ce7024469a5758b08d31802c, type: 3}
+    m_Font: {fileID: 12800000, guid: 0952b05f5e21ea94f94a1f88ed230f1b, type: 3}
     m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 1
@@ -10850,9 +10850,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Class: {fileID: 21300000, guid: 869963c92d1ab4a4dbcaf10d2ecb7911, type: 3}
-  Hallway: {fileID: 21300000, guid: c4212dd1d1650724c983f7d389b9be51, type: 3}
-  Outside: {fileID: 21300000, guid: f8e7ed6d662e7b74b9250618b88677c5, type: 3}
-  LectureHall: {fileID: 21300000, guid: 77cbabb6e12b2ce4986f80ab6b075fa1, type: 3}
+  Hallway: {fileID: 21300000, guid: 9345c6ace1782f748be005a0a5b3d832, type: 3}
+  Outside: {fileID: 21300000, guid: 2d4445930b55e8447bd8b2cadb8958ab, type: 3}
+  Cornerstone: {fileID: 21300000, guid: bcafeb31c2040b64e84f087d26580f42, type: 3}
+  LectureHall: {fileID: 21300000, guid: bbc0f2cc070acd94c93bf9411d7ebe29, type: 3}
   DinningHall: {fileID: 21300000, guid: 00006a7da62c4a840865d47f0610d70c, type: 3}
   DefaultName: Hallway
   ChildWithSprite: {fileID: 6538510958192064439}

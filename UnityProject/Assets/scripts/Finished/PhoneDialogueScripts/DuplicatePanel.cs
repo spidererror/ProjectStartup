@@ -17,11 +17,12 @@ public class DuplicatePanel : MonoBehaviour
     private string _currentText;
     private bool _pressedButton;
     private Vector3 _startPosition;
+    private Vector3 _continueButtonStartPosition;
     private List<RectTransform> _allDuplicates = new List<RectTransform>();
-
     private void Start()
     {
         _startPosition = objectToDuplicate.position;
+        _continueButtonStartPosition = getChildContinueButton(objectToDuplicate.gameObject).position;
     }
 
     private void Update()
@@ -42,11 +43,13 @@ public class DuplicatePanel : MonoBehaviour
         {
             currentDialogueImage.sprite = mirroredDialogueBox;
             objectToDuplicate.position = new Vector3(objectToDuplicate.position.x + (offsetX * (Screen.width / defaultWidth)), objectToDuplicate.position.y);
+            SetPositionContinueButton(objectToDuplicate.gameObject,mirror);
             _pressedButton = true;
         }
         else
         {
             objectToDuplicate.position = _startPosition;
+            SetPositionContinueButton(objectToDuplicate.gameObject, mirror);
             currentDialogueImage.sprite = defaultDialogueBox;
         }
 
@@ -65,11 +68,55 @@ public class DuplicatePanel : MonoBehaviour
         }
     }
 
+    private Transform getChildContinueButton(GameObject parentObject)
+    {
+        foreach (Transform child in parentObject.GetComponentInChildren<Transform>())
+        {
+            if (child.gameObject.tag == "ContinueButton")
+            {
+                return child.GetChild(0);
+            }
+        }
+        return null;
+    }
+
+    private void SetPositionContinueButton(GameObject parentObject,bool mirror)
+    {
+        float defaultWidth = 1600;
+        foreach (Transform child in parentObject.GetComponentInChildren<Transform>())
+        {
+            if (child.gameObject.tag == "ContinueButton")
+            {
+                if (mirror)
+                {
+                    child.GetChild(0).gameObject.transform.position = new Vector3(child.GetChild(0).gameObject.transform.position.x- (offsetX * (Screen.width / defaultWidth)), child.GetChild(0).gameObject.transform.position.y);
+                }
+                else
+                {
+                    child.GetChild(0).gameObject.transform.position = _continueButtonStartPosition;
+
+                }
+            }
+        }
+    }
+
+    private void turnOffContinueButton(GameObject parentObject)
+    {
+        foreach(Transform child in parentObject.GetComponentInChildren<Transform>())
+        {
+            if (child.gameObject.tag == "ContinueButton")
+            {
+                child.GetChild(0).gameObject.SetActive(false);
+            }
+        }
+    }
+
     private void positoinPreviousDuplicates()
     {
         
         for (int i = 0; i < _allDuplicates.Count; i++)
         {
+            turnOffContinueButton(_allDuplicates[i].gameObject);
             if (i<_allDuplicates.Count-1)
             {
                 float defaultHeight =  1600;
