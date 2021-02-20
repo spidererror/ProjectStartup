@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Finished/End Day 1.unity
     guid: b04f07be3b4c79741be3bdee530bc8bc
+  - enabled: 1
+    path: Assets/Scenes/Finished/Spooky Scene.unity
+    guid: e2e24b65b7015e146b1f199faeffd103
   m_configObjects: {}
