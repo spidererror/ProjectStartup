@@ -694,6 +694,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1849237669633042150, guid: 6ae20f7c0b4e28b42878059765dc6055, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -422
+      objectReference: {fileID: 0}
     - target: {fileID: 1849237669749365603, guid: 6ae20f7c0b4e28b42878059765dc6055, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -721,6 +725,10 @@ PrefabInstance:
     - target: {fileID: 2721810900862665263, guid: 6ae20f7c0b4e28b42878059765dc6055, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556450818242054676, guid: 6ae20f7c0b4e28b42878059765dc6055, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6322658155352249325, guid: 6ae20f7c0b4e28b42878059765dc6055, type: 3}
       propertyPath: sceneName
@@ -1451,7 +1459,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -288.75943
     y: 175.87848
-    width: 143.87756
+    width: 150
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1482,7 +1490,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -710.315
     y: 201.2414
-    width: 184.69388
+    width: 193.47827
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

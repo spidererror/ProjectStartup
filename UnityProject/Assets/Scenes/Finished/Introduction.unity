@@ -1053,7 +1053,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 140.36015
+    x: 141.9995
     y: 361.25327
     width: 93.63637
     height: 40
@@ -1445,7 +1445,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &734952089
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1793,7 +1793,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 418.6138
+    x: 420.25314
     y: 618.98956
     width: 240
     height: 40
@@ -2794,7 +2794,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 208
   indentLevel: 0
-  storyText: 'My name is Jeremy. I do fashion technology._
+  storyText: 'My name is Jeremy. I do fashion technology.
 
     And this shy fella
     is Awoo!
@@ -4778,8 +4778,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -87.77852
-    y: 1265.2223
+    x: -89.41786
+    y: 1266.8617
     width: 99.09091
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -9310,7 +9310,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &734952332
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -9333,7 +9333,7 @@ MonoBehaviour:
   audioSourceOLD: {fileID: 0}
 --- !u!114 &734952333
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -9356,7 +9356,7 @@ MonoBehaviour:
   audioSourceOLD: {fileID: 0}
 --- !u!114 &734952334
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -9379,7 +9379,7 @@ MonoBehaviour:
   audioSourceOLD: {fileID: 0}
 --- !u!114 &734952335
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -9402,7 +9402,7 @@ MonoBehaviour:
   audioSourceOLD: {fileID: 0}
 --- !u!114 &734952336
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -9425,7 +9425,7 @@ MonoBehaviour:
   audioSourceOLD: {fileID: 0}
 --- !u!114 &734952337
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -9448,7 +9448,7 @@ MonoBehaviour:
   audioSourceOLD: {fileID: 0}
 --- !u!114 &734952338
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -9471,7 +9471,7 @@ MonoBehaviour:
   audioSourceOLD: {fileID: 0}
 --- !u!114 &734952339
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
