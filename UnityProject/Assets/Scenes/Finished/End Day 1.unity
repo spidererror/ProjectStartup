@@ -738,21 +738,9 @@ PrefabInstance:
       propertyPath: ObjectsToHide.Array.data[0]
       value: 
       objectReference: {fileID: 926015512}
-    - target: {fileID: 6821394409543229626, guid: 6ae20f7c0b4e28b42878059765dc6055, type: 3}
-      propertyPath: m_Color.b
-      value: 0.05490196
-      objectReference: {fileID: 0}
-    - target: {fileID: 6821394409543229626, guid: 6ae20f7c0b4e28b42878059765dc6055, type: 3}
-      propertyPath: m_Color.g
-      value: 0.047058824
-      objectReference: {fileID: 0}
-    - target: {fileID: 6821394409543229626, guid: 6ae20f7c0b4e28b42878059765dc6055, type: 3}
-      propertyPath: m_Color.r
-      value: 0.15294118
-      objectReference: {fileID: 0}
     - target: {fileID: 7598669994720579356, guid: 6ae20f7c0b4e28b42878059765dc6055, type: 3}
       propertyPath: _sceneName.stringVal
-      value: MainMenu
+      value: Act2
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1849237668244857562, guid: 6ae20f7c0b4e28b42878059765dc6055, type: 3}
@@ -1463,7 +1451,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -288.75943
     y: 175.87848
-    width: 150
+    width: 143.87756
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1494,7 +1482,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -710.315
     y: 201.2414
-    width: 193.47827
+    width: 184.69388
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
