@@ -264,8 +264,12 @@ PrefabInstance:
       value: Conversation
       objectReference: {fileID: 0}
     - target: {fileID: 3277567632003669205, guid: 0de0194e4588a7141ba75aa84b5cb254, type: 3}
+      propertyPath: eventHandler
+      value: 
+      objectReference: {fileID: 108829083}
+    - target: {fileID: 3277567632003669205, guid: 0de0194e4588a7141ba75aa84b5cb254, type: 3}
       propertyPath: nodeRect.width
-      value: 122.41374
+      value: 129.10443
       objectReference: {fileID: 0}
     - target: {fileID: 3277567632003669205, guid: 0de0194e4588a7141ba75aa84b5cb254, type: 3}
       propertyPath: commandList.Array.size
@@ -357,6 +361,18 @@ PrefabInstance:
       propertyPath: selectedBlocks.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3986992498543668768, guid: 0de0194e4588a7141ba75aa84b5cb254, type: 3}
+      propertyPath: selectedCommands.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986992498543668768, guid: 0de0194e4588a7141ba75aa84b5cb254, type: 3}
+      propertyPath: selectedBlocks.Array.data[0]
+      value: 
+      objectReference: {fileID: 108829082}
+    - target: {fileID: 3986992498543668768, guid: 0de0194e4588a7141ba75aa84b5cb254, type: 3}
+      propertyPath: selectedCommands.Array.data[0]
+      value: 
+      objectReference: {fileID: 108829079}
     - target: {fileID: 4960745345993279612, guid: 0de0194e4588a7141ba75aa84b5cb254, type: 3}
       propertyPath: nameText
       value: Voice Over
@@ -408,6 +424,10 @@ PrefabInstance:
     - target: {fileID: 8012491630035092743, guid: 0de0194e4588a7141ba75aa84b5cb254, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8323070549616879766, guid: 0de0194e4588a7141ba75aa84b5cb254, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 8599940608896624184, guid: 0de0194e4588a7141ba75aa84b5cb254, type: 3}
       propertyPath: m_AnchorMax.y
@@ -518,6 +538,7 @@ PrefabInstance:
     - {fileID: 1076990975847101861, guid: 0de0194e4588a7141ba75aa84b5cb254, type: 3}
     - {fileID: 3053674093977499100, guid: 0de0194e4588a7141ba75aa84b5cb254, type: 3}
     - {fileID: 7668076997206511308, guid: 0de0194e4588a7141ba75aa84b5cb254, type: 3}
+    - {fileID: 8252613806454286934, guid: 0de0194e4588a7141ba75aa84b5cb254, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0de0194e4588a7141ba75aa84b5cb254, type: 3}
 --- !u!114 &108829058 stripped
 MonoBehaviour:
@@ -998,7 +1019,7 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: 
   startIndex: 0
-  callMode: 0
+  callMode: 1
 --- !u!114 &108829079
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1019,7 +1040,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &108829080
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1029,7 +1050,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 22
+  itemId: 25
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
@@ -1050,8 +1071,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 117.817795
-    y: 262.23117
+    x: 116.32526
+    y: 268.2013
     width: 72.38805
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1063,6 +1084,32 @@ MonoBehaviour:
   commandList:
   - {fileID: 108829080}
   suppressAllAutoSelections: 0
+--- !u!114 &108829082 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3277567632003669205, guid: 0de0194e4588a7141ba75aa84b5cb254, type: 3}
+  m_PrefabInstance: {fileID: 108829057}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108829060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &108829083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108829060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 108829082}
+  suppressBlockAutoSelect: 0
+  waitForFrames: 1
 --- !u!1 &386359363
 GameObject:
   m_ObjectHideFlags: 0
